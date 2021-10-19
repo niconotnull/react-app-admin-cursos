@@ -1,0 +1,32 @@
+export const types = {
+  alumnoList: '[alumno] Lista de alumnos',
+  alumnoActive: '[alumno] Alumno activo',
+  alumnoUpdate: '[alumno] Alumno actualizado',
+  alumnoDelete: '[alumno] Alumno eliminado',
+  alumnoListLike: '[alumno] Like Alumnos',
+  alumnoAdd: '[alumno] Alumno add',
+
+  cursoList: '[curso] Lista de cursos',
+  cursoDelete: '[curso] Curso eliminado',
+  cursoUpdate: '[curso] Curso actualizar',
+  cursoActive: '[curso] Curso activo',
+  cursoActiveDeleteAlumno: '[curso] Delete alumno  del curso active',
+  cursoActiveDeleteExamen: '[curso] Delete examen del curso active',
+
+  examenList: '[curso] Lista de examenes',
+  examenDelete: '[curso] Examen eliminado',
+  examenUpdate: '[curso] Examen actualizar',
+  examenActive: '[curso] Examen activo',
+  examenAsignaturas: '[curso] Examen asignaturas',
+  examenListLike: '[alumno] Like examenes',
+
+  uiPaginator: '[ui] Paginador activo',
+  uiOpenModal: '[ui] Open Modal',
+  uiCloseModal: '[ui] Close Modal',
+  uiOpenModalAlumno: '[ui] Open Modal alumno',
+  uiCloseModalAlumno: '[ui] Close Modal alumno',
+  uiImageUpload: '[ui] Upload Image',
+  uiImageRemove: '[ui] Remove Image',
+  uiOpenModalExamen: '[ui] Open Modal admmin examen',
+  uiCloseModalExamen: '[ui] Close Modal admmin examen',
+};
